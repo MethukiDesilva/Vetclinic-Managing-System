@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="images/vetclinic_icon.png" width="180">
+  <img src="images/vetclinic_icon.png" width="250">
 </p>
-
 <h1 align="center">🐾 VetClinic ERP</h1>
 
 <p align="center">
