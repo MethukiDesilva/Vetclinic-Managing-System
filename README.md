@@ -162,7 +162,7 @@ VetClinic/
 ![Treatment Screen](images/treatment.png)
 
 ### 💳 Billing Screen
-![Billing Screen](https://raw.githubusercontent.com/MethukiDesilva/Vetclinic-Managing-System/main/images/billing.png)
+![Billing Screen](images/billing.png)
 
 ### 💊 Manage Medicines
 ![Manage Medicines](images/manage_medicine_screen.png)
