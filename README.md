@@ -140,6 +140,8 @@ VetClinic/
 ├── vetclinic_icon.png
 └── README.md
 
+```
+
 ## 🖼️ Screenshots
 
 ### 🔐 Login Screen
