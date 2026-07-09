@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/vetclinic_icon.png" width="120">
+  <img src="images/vetclinic_icon.png" width="180">
 </p>
 
 <h1 align="center">🐾 VetClinic ERP</h1>
