@@ -1,13 +1,14 @@
 <p align="center">
   <img src="images/vetclinic_icon.png" width="250">
 </p>
-<h1 align="center">🐾 VetClinic ERP</h1>
+<h1 align="center">🐾 VetClinic ERP 🩺</h1>
 
 <p align="center">
-  A desktop veterinary clinic management system built with Python and Tkinter.
+  <b>Desktop Veterinary Clinic Management System</b><br>
+  Built with Python 🐍, Tkinter 🖥️ and SQLite 🗄️
 </p>
 
-## Overview
+## Overview 📖
 VetClinic ERP is a desktop application that manages the day-to-day operations of a veterinary clinic.It guides each patient visit through a 5-stage process.
 1. Reception
 2. Consultation
@@ -17,35 +18,36 @@ VetClinic ERP is a desktop application that manages the day-to-day operations of
 
 The system manages pet owners, pets, veterinarians, medicine inventory, patient visits, and billing with all data stored in a local SQLite database.
 
-## Features
+## Features ✨ 
 
-### 5-stage workflow
+### 5-stage workflow 🩺
 Every patient visit follows the structured workflow below, with the current stage tracked in the database.
 
-### 1. Reception
+### 1. Reception 📝 
 - Register the owner and pet
 - Open a new patient visit.
 
-### 2. Consultation
+### 2. Consultation 💬
 - Record symptoms
 - Enter diagnosis
 - Record weight and body temperature
 
-### 3. Diagnostics
+### 3. Diagnostics 🔬
 - Record laboratory tests ordered
 - Save diagnostic results
 
-### 4. Treatment
+### 4. Treatment💉
 - Select prescribed medicine
 - Enter medicine quantity
 - Automatically check and deduct medicine stock
 
-### 5. Billing 
+### 5. Billing 💳
 - Calculate consultation fee and medicine cost
 - Record payment status
 - Discharge the patient
 
 Each stage also includes:
+
 ◀  **Back** -  Return to the previous stage
 
 ❌ **Cancel** - Cancel the visit and return to the dashboard.
@@ -92,10 +94,10 @@ Default credentials :
 -Username :admin
 -Password :admin123
 
-### Consistent Currency Formatting
+### 💰 Consistent Currency Formatting
 All monetary values are displayed using a single formatting function, ensuring consistent presentation throughout the application.
 
-### Input Validation
+### ✅ Input Validation
 The application validates user input before saving data.
 
 Validation includes :
@@ -109,13 +111,13 @@ Validation includes :
 - Friendly error messages.
 - Username and password validation.
 
-### Technology used
+### 🛠️ Technology used
 Frontend : Python 3 , Tkinter (GUI Framework)
 Backend  : SQlite3
 
 Foreign keys are enforced so deleting an owner cascades their pets , and deleting a vet or medicine sets the corresponding visit field to NULL instead of leaving orphaned references.
 
-## Project Structure
+### 🗂️ Project Structure
 
 VetClinic/
 ├── images/
@@ -137,36 +139,36 @@ VetClinic/
 ├── vetclinic_icon.png
 └── README.md
 
-## Screenshots
+## 🖼️ Screenshots
 
-### Login Screen
+### 🔐 Login Screen
 ![Login Screen](images/login.png)
 
-### Dashboard Showing Low Stock Medicine Alerts
+### 📊 Dashboard Showing Low Stock Medicine Alerts
 ![Dashboard](images/dashboard.png)
 
-### Reception Screen
+### 📝 Reception Screen
 ![Reception Screen](images/new_visit_reception_screen.png)
 
-### Consultation Screen
+### 💬 Consultation Screen
 ![Consultation Screen](images/consultation.png)
 
-### Diagnostics Screen
+### 🔬 Diagnostics Screen
 ![Diagnostics Screen](images/diagnostics.png)
 
-### Treatment Screen
+### 💉 Treatment Screen
 ![Treatment Screen](images/treatment.png)
 
-### Billing Screen
+### 💳 Billing Screen
 ![Billing Screen](images/billing.png)
 
-### Manage Medicines
+### 💊 Manage Medicines
 ![Manage Medicines](images/manage_medicine_screen.png)
 
-### Manage Vets
+### 👨‍⚕️ Manage Vets
 ![Manage Vets](images/manage_vets.png)
 
-### app.py
+###  🖥️ app.py
 contains :
 - Tkinter GUI
 - Login screen
@@ -177,7 +179,7 @@ contains :
 - Treatment module 
 - Billing module
 
-### store.py
+### 🗄️ store.py
 Handles all database operations
 Functions include :
 - Add owner
@@ -193,7 +195,7 @@ Functions include :
 
 This file serves as the applications data access layer
 
-### init_db.py
+###🏗️  init_db.py
 Responsible for:
 - Creating the SQLite database
 - Creating all required tables
@@ -201,7 +203,7 @@ Responsible for:
 
 Run this file once before starting the application
 
-## Installation
+## ⚙️ Installation
 
 ### 1. Clone the repository
 
@@ -235,15 +237,15 @@ This creates:
 python app.py
 ```
 
-## Default Seed Data
+## 🌱 Default Seed Data
 
-### Veterinarians
+### 👨‍⚕️ Veterinarians
 
 - Dr. Amara Silva
 - Dr. Ravi Perera
 - Dr. Nadia Fernando
 
-### Medicines
+### 💊  Medicines
 
 - Amoxicillin 250mg
 - Rabies Vaccine
@@ -256,7 +258,7 @@ python app.py
 
 When billing is completed, the system can automatically calculate a future check-up date.
 
-## Key Features
+## 🚀 Key Features
 
 ✔ Five-stage patient workflow  
 ✔ SQLite database integration  
