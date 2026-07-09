@@ -197,7 +197,7 @@ Functions include :
 
 This file serves as the applications data access layer
 
-###🏗️  init_db.py
+### 🏗️  init_db.py
 Responsible for:
 - Creating the SQLite database
 - Creating all required tables
