@@ -12,7 +12,6 @@
   <img src="https://img.shields.io/badge/GUI-Tkinter-green">
   <img src="https://img.shields.io/badge/Database-SQLite-blue">
   <img src="https://img.shields.io/badge/Workflow-5_Stages-orange">
-  <img src="https://img.shields.io/badge/Authentication-Login-purple">
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen">
 </p>
 
