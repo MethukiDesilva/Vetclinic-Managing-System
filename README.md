@@ -47,6 +47,7 @@ Every patient visit follows the structured workflow below, with the current stag
 
 Each stage also includes:
 ◀  **Back** -  Return to the previous stage
+
 ❌ **Cancel** - Cancel the visit and return to the dashboard.
 
 ### Dashboard 📊
