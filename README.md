@@ -7,9 +7,17 @@
   <b>Desktop Veterinary Clinic Management System</b><br>
   Built with Python 🐍, Tkinter 🖥️ and SQLite 🗄️
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue">
+  <img src="https://img.shields.io/badge/GUI-Tkinter-green">
+  <img src="https://img.shields.io/badge/Database-SQLite-blue">
+  <img src="https://img.shields.io/badge/Workflow-5_Stages-orange">
+  <img src="https://img.shields.io/badge/Authentication-Login-purple">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen">
+</p>
 
 ## Overview 📖
-VetClinic ERP is a desktop application that manages the day-to-day operations of a veterinary clinic.It guides each patient visit through a 5-stage process.
+VetClinic ERP is a desktop application that manages the day-to-day operations of a veterinary clinic. This project was developed as part of the Advanced Python Certification Course by SLIPD Academy. The VetClinic management system guides each patient visit through a 5-stage process.
 1. Reception
 2. Consultation
 3. Diagnostics
