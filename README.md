@@ -16,15 +16,17 @@
 </p>
 
 ## Overview 📖
-VetClinic ERP is a desktop application that manages the day-to-day operations of a veterinary clinic. This project was developed as part of the Advanced Python Certification Course by SLIPD Academy. The VetClinic management system guides each patient visit through a 5-stage process.
+VetClinic ERP is a desktop application that manages the day-to-day operations of a veterinary clinic. This project was developed as part of the Advanced Python Certification Course at SLIPD Academy.
+
+The system guides each patient visit through a structured five-stage workflow:
+
 1. Reception
 2. Consultation
 3. Diagnostics
 4. Treatment
 5. Billing
 
-The system manages pet owners, pets, veterinarians, medicine inventory, patient visits, and billing with all data stored in a local SQLite database.
-
+It manages pet owners, pets, veterinarians, medicine inventory, patient visits, and billing, with all data stored in a local SQLite database.
 ## Features ✨ 
 
 ### 5-stage workflow 🩺
