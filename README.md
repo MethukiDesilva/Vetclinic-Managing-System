@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/vetclinic_icon.png" width="250">
+  <img src="images/vetclinic_icon.png" width="300">
 </p>
 <h1 align="center">🐾 VetClinic ERP 🩺</h1>
 
@@ -271,6 +271,8 @@ When billing is completed, the system can automatically calculate a future check
 ✔ Input validation  
 ✔ Automated billing and next check-up scheduling
 
+## 👨‍💻Developed by :
+- Methuki Desilva
 ---
 
 
