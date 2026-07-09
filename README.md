@@ -119,6 +119,7 @@ Foreign keys are enforced so deleting an owner cascades their pets , and deletin
 
 ### 🗂️ Project Structure
 
+```
 VetClinic/
 ├── images/
 │   ├── billing.png
