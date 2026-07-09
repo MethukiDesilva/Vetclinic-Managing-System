@@ -137,7 +137,6 @@ VetClinic/
 ├── init_db.py
 ├── store.py
 ├── vetclinic.db
-├── vetclinic_icon.png
 └── README.md
 
 ```
